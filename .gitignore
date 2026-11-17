@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 실제 사내 데이터·생성 리포트는 커밋하지 않음 (샘플 데이터만 허용)
+data/*
+!data/sample_steel_quality.csv
+!data/sample_steel_quality.xlsx
+!data/injected_anomalies.csv
+*.xlsx
+!data/sample_steel_quality.xlsx
+SteelQ_Report_*.xlsx
+
+# 기타
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+~$*
+
+# Playwright 검토 산출물(스크린샷·스냅샷·테스트 파일)
+.playwright-mcp/
