@@ -1,0 +1,29 @@
+[server]
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+# 화면 팔레트는 steelq/config.py 의 BRAND_* / SEVERITY_* 와 같은 값을 쓴다 (엑셀 리포트와 통일)
+[theme]
+base = "light"
+primaryColor = "#E8590C"              # 강조색(하나만): 주요 버튼·선택 탭·슬라이더
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F2F4F7"  # 스틸 그레이: 입력창·카드 배경
+textColor = "#1F2933"
+linkColor = "#1F3A5F"
+borderColor = "#D9DEE5"
+showWidgetBorder = true
+baseRadius = "0.5rem"
+font = "Pretendard Variable:https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css, Malgun Gothic, Apple SD Gothic Neo, sans-serif"
+dataframeHeaderBackgroundColor = "#1F3A5F"
+dataframeHeaderTextColor = "#FFFFFF"
+# 상태 색 (정상/주의/경고) — st.success / st.warning / st.error 와 지표 증감에 반영
+greenColor = "#0ca30c"
+yellowColor = "#fab219"
+redColor = "#d03b3b"
+chartCategoricalColors = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#6250d6", "#e34948"]
+
+[theme.sidebar]
+backgroundColor = "#F2F4F7"
+secondaryBackgroundColor = "#FFFFFF"
